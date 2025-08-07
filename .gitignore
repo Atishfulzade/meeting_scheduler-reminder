@@ -1,2 +1,52 @@
-node_modules
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+logfile*
+debug.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Optional dependencies
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Misc
+*.tgz
+*.gz
+*.zip
+*.bak
+*.tmp
+
+# dotenv backup
+.env.backup
+.env
+
+# System generated
+*.swp
+*.swo
